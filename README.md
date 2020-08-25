@@ -4,8 +4,10 @@
 3. composer (https://getcomposer.org/download)
 
 Как развернуть проект:
-1. composer install
-2. Необходимо скачать версию Chromedriver https://chromedriver.chromium.org/downloads соотсетствующую установленному Chrome  
+1. git clone https://github.com/allxd/auto-test
+2. cd auto-test
+3. composer install
+4. Необходимо скачать версию Chromedriver https://chromedriver.chromium.org/downloads соотсетствующую установленному Chrome  
 
 Чтобы запустить тесты
 1. Запустить скачанный Chromedriver командой `chromedriver --url-base=wd/hub/`
