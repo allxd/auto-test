@@ -39,4 +39,12 @@ class LoginCest
         $rows = $I->grabMultiple('.transaction-row');
         assertGreaterThanOrEqual(2, count($rows));
     }
+
+    /**
+     * @param AcceptanceTester $I
+     */
+    public function blankTest(AcceptanceTester $I)
+    {
+        print('теcт писать здесь tests/acceptance/LoginCest.php');
+    }
 }
